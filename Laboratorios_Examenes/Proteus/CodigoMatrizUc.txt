@@ -1,0 +1,131 @@
+/*
+--------------------------------------------------------------------------------
+ * 1. SECCION DE DOCUMENTACION
+--------------------------------------------------------------------------------
+ Este programa reconoce la tecla presionada en un teclado matricial y lo 
+ muesstra en un display 7 segmentos de catodo comun
+ los integrantes de trabajo son:
+ * Miguel Angel Fuentes Ramirez 20182005007
+ * Angelica Bautista Masmela 20182005062
+ * Cristian Camilo Quevedo Beltran 20191005160
+--------------------------------------------------------------------------------
+ * 2. SECCION DE DIRECTIVAS DE PREPROSESAMIENTO
+--------------------------------------------------------------------------------
+ se uso PIC18F25K20 
+ */
+#include <xc.h>
+#define _XTAL_FREQ 8000000 // cristal de 8MHz
+/*
+--------------------------------------------------------------------------------
+ * 3. DECLARACION DE VARIABLES Y FUNCIONES GLOBALES
+--------------------------------------------------------------------------------
+ */
+void ConfigGPIO(void);
+void ConfigInt(void);
+/*
+--------------------------------------------------------------------------------
+ * 4. IMPLEMENTACION DE LAS FUNCIONES
+--------------------------------------------------------------------------------
+ */
+void main(void) {
+    //funcion Configuracion entradas y salidas digitales
+    ConfigGPIO();
+    //funcion Configuracion interrupciones
+    ConfigInt();
+    while(1){
+    }
+    return;
+}
+void ConfigGPIO(){
+    //se limpia latch para PortC y PortB
+    LATC = 0x00;
+    LATB = 0x00;
+    // se configuran pines RB(4:0) como pines digitales.
+    ANSELH &=~ 0x1F;
+    //se activa pull-up para PortB
+    INTCON2 &=~ 0x80;
+    //se activar pull-up para RB(7:4)
+    WPUB |= 0xF0;
+    // se configura RB(7:4) entradas y RB(3:0) salidas
+    TRISB |= 0xF0;
+    TRISB &=~ 0x0F;
+    // se configuran RC(7:0) como salidas
+    TRISC &=~ 0xFF;
+}
+void ConfigInt(void){
+    //se desactivan interrupciones globales y de PortB
+    RCON &=~ 0x80;
+    INTCON &=~ 0xC8;
+    //se habilita interrupción para los pines RB(7:4)
+    IOCB |= 0xF0;
+    //se establece prioridad de interrupcion en PortRB
+    INTCON2 |= 0x01;
+    //se activan interrupciones globales y de portB
+    RCON |= 0x80;
+    INTCON |= 0xC8;
+}
+void __interrupt(high_priority) VerificacionTecla(void){
+    //si el bit de bandera esta activo se ejecuta la interrupcion es decir
+    //leer la tecla precionada
+    if (INTCON & 0x01){
+        LATB |= 0x0E; //RB1,RB2,RB3='1',RB0='0' set
+        if ((RB4==0)&&(RB0==0)){ //SW1
+            LATC = 0x07;//7
+        }
+        if ((RB5==0)&&(RB0==0)){ //SW2
+            LATC = 0x7F;//8
+        }
+        if ((RB6==0)&&(RB0==0)){ //SW3
+            LATC = 0x67;//9   
+        }
+        if ((RB7==0)&&(RB0==0)){ //SW4
+            LATC = 0x77;//A 
+        }
+        LATB &=~ 0x0F; //RB0,RB1,RB2,RB3='0' reset
+        LATB |= 0x0D; //RB0,RB2,RB3='1',RB1='0' set
+        if ((RB4==0)&&(RB1==0)){ //SW5
+            LATC = 0x66;//4
+        }
+        if ((RB5==0)&&(RB1==0)){ //SW6
+            LATC = 0x6D;//5
+        }
+        if ((RB6==0)&&(RB1==0)){ //SW7
+            LATC = 0x7D;//6
+        }
+        if ((RB7==0)&&(RB1==0)){ //SW8
+            LATC = 0x7C;//B
+        }
+        LATB &=~ 0x0F; //RB0,RB1,RB2,RB3='0' reset
+        LATB |= 0x0B; //RB0,RB1,RB3='1' set
+        if ((RB4==0)&&(RB2==0)){ //SW9
+            LATC = 0x06;//1
+        }
+        if ((RB5==0)&&(RB2==0)){ //SW10
+            LATC = 0x5B;//2
+        }
+        if ((RB6==0)&&(RB2==0)){ //SW11
+            LATC = 0x4F;//3
+        }
+        if ((RB7==0)&&(RB2==0)){ //SW12
+            LATC = 0x39;//C
+        }
+        LATB &=~ 0x0F; //RB0,RB1,RB2,RB3='0' reset
+        LATB |= 0x07; //RB0,RB1,RB2='1' set
+        if ((RB4==0)&&(RB3==0)){ //SW13
+            LATC = 0x76;//*
+        }
+        if ((RB5==0)&&(RB3==0)){ //SW14
+            LATC = 0x3F;//0
+        }
+        if ((RB6==0)&&(RB3==0)){ //SW15
+            LATC = 0x36;//#
+        }
+        if ((RB7==0)&&(RB3==0)){ //SW16
+            LATC = 0x5E;//D
+        }
+        LATB &=~ 0x0F;//RB0,RB1,RB2,RB3='0' reset
+        __delay_us(100);//Tiempo de espera entre eventos
+        int a=PORTB;
+        INTCON &=~ 0x01; //bit bandera RB='0'
+    }
+}

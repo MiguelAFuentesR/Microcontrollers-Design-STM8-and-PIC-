@@ -1,0 +1,7 @@
+Esquemáticos de las tarjetas de desarrollo STM8S105 y STM8S103
+
+STM8S103F3
+https://tenbaht.github.io/sduino/hardware/stm8blue/
+
+STM8S105K4
+https://tenbaht.github.io/sduino/hardware/stm8sblack/#i2c-not-easy-accessible

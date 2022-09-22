@@ -1,0 +1,325 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BinarioDecimal	main.c	185;"	function	signature:(int num1,int num2,int num3)
+BinarioDecimal	main.c	34;"	prototype	file:	signature:(int num1,int num2,int num3)
+EXIT_FAILURE	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\stdlib.h	7;"	macro
+EXIT_SUCCESS	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\stdlib.h	8;"	macro
+MB_CUR_MAX	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\stdlib.h	9;"	macro
+MostrarDisplay	main.c	229;"	function	signature:(int NumeroResultado)
+MostrarDisplay	main.c	38;"	prototype	file:	signature:(int NumeroResultado)
+NULL	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\stdlib.h	13;"	macro
+NonHandledInterrupt	stm8_interrupt_vector.c	12;"	function	signature:(void)
+Operaciones	main.c	202;"	function	signature:(int operando1,int operando0,int numero1,int numero2)
+Operaciones	main.c	36;"	prototype	file:	signature:(int operando1,int operando2,int numero1,int numero2)
+RAND_MAX	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\stdlib.h	10;"	macro
+Resultado	main.c	19;"	variable
+__MODS0__	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\mods0.h	11;"	macro
+__SIZE_T__	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\stdlib.h	17;"	macro
+__STDBOOL	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\stdbool.h	5;"	macro
+__STDLIB__	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\stdlib.h	5;"	macro
+__WCHAR_T__	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\stdlib.h	22;"	macro
+__bool_true_false_are_defined	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\stdbool.h	11;"	macro
+_checkcrc16	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\stdlib.h	59;"	prototype	signature:(void)
+_checkcrc16x	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\stdlib.h	60;"	prototype	signature:(void)
+_checksum	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\stdlib.h	55;"	prototype	signature:(void)
+_checksum16	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\stdlib.h	57;"	prototype	signature:(void)
+_checksum16x	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\stdlib.h	58;"	prototype	signature:(void)
+_checksumx	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\stdlib.h	56;"	prototype	signature:(void)
+_fctcpy	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\stdlib.h	61;"	prototype	signature:(char)
+_stext	stm8_interrupt_vector.c	20;"	prototype	file:
+_vectab	stm8_interrupt_vector.c	22;"	variable
+a	main.c	15;"	variable
+a1	main.c	41;"	variable
+abort	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\stdlib.h	63;"	macro
+abs	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\stdlib.h	36;"	prototype	signature:(int i)
+activarSalidaReloj	main.c	306;"	function
+activarSalidaReloj	main.c	31;"	prototype	file:	signature:(void)
+atof	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\stdlib.h	37;"	prototype	signature:(char *nptr)
+atoi	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\stdlib.h	38;"	prototype	signature:(char *nptr)
+atol	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\stdlib.h	39;"	prototype	signature:(char *nptr)
+b	main.c	41;"	variable
+bool	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\stdbool.h	7;"	macro
+c	main.c	41;"	variable
+calculo	main.c	20;"	variable
+calloc	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\stdlib.h	40;"	prototype	signature:(unsigned int nelem, unsigned int elsize)
+configurarGPIO	main.c	127;"	function
+configurarGPIO	main.c	32;"	prototype	file:	signature:(void)
+configurarReloj	main.c	274;"	function
+configurarReloj	main.c	30;"	prototype	file:	signature:(void)
+conversion	main.c	18;"	variable
+decimal	main.c	28;"	variable
+delayAprox	main.c	325;"	function	signature:(long del)
+delayAprox	main.c	39;"	prototype	file:	signature:(long del)
+div	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\stdlib.h	41;"	prototype	signature:(int numer, int denom)
+div_t	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\stdlib.h	29;"	typedef	typeref:struct:__anon1
+division	main.c	23;"	variable
+entero	main.c	27;"	variable
+exit	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\stdlib.h	42;"	prototype	signature:(int status)
+false	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\stdbool.h	10;"	macro
+free	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\stdlib.h	43;"	prototype	signature:(void *ptr)
+interrupt_handler	stm8_interrupt_vector.c	9;"	member	struct:interrupt_vector	file:
+interrupt_handler_t	stm8_interrupt_vector.c	5;"	typedef	file:
+interrupt_instruction	stm8_interrupt_vector.c	8;"	member	struct:interrupt_vector	file:
+interrupt_vector	stm8_interrupt_vector.c	7;"	struct	file:
+isqrt	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\stdlib.h	53;"	prototype	signature:(unsigned int)
+labs	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\stdlib.h	44;"	prototype	signature:(long l)
+ldiv	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\stdlib.h	45;"	prototype	signature:(long numer, long denom)
+ldiv_t	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\stdlib.h	34;"	typedef	typeref:struct:__anon2
+lsqrt	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\stdlib.h	54;"	prototype	signature:(unsigned long)
+main	main.c	44;"	function
+malloc	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\stdlib.h	46;"	prototype	signature:(unsigned int size)
+negativo	main.c	25;"	variable
+num1_0	main.c	11;"	variable
+num1_1	main.c	11;"	variable
+num1_2	main.c	11;"	variable
+num2_0	main.c	12;"	variable
+num2_1	main.c	12;"	variable
+num2_2	main.c	12;"	variable
+numero1dec	main.c	16;"	variable
+numero2dec	main.c	17;"	variable
+op_0	main.c	13;"	variable
+op_1	main.c	13;"	variable
+quot	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\stdlib.h	27;"	member	struct:__anon1
+quot	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\stdlib.h	32;"	member	struct:__anon2
+rand	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\stdlib.h	47;"	prototype	signature:(void)
+realloc	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\stdlib.h	48;"	prototype	signature:(void *ptr, unsigned int size)
+rem	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\stdlib.h	28;"	member	struct:__anon1
+rem	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\stdlib.h	33;"	member	struct:__anon2
+resta	main.c	24;"	variable
+size_t	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\stdlib.h	18;"	typedef
+srand	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\stdlib.h	49;"	prototype	signature:(unsigned int seed)
+strtod	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\stdlib.h	50;"	prototype	signature:(char *s, char **endptr)
+strtol	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\stdlib.h	51;"	prototype	signature:(char *s, char **endptr, int base)
+strtoul	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\stdlib.h	64;"	macro
+true	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\stdbool.h	9;"	macro
+valorconvertido	main.c	21;"	variable
+x5000	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	9;"	variable
+x5001	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	10;"	variable
+x5002	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	11;"	variable
+x5003	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	12;"	variable
+x5004	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	13;"	variable
+x5005	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	17;"	variable
+x5006	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	18;"	variable
+x5007	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	19;"	variable
+x5008	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	20;"	variable
+x5009	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	21;"	variable
+x500a	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	25;"	variable
+x500b	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	26;"	variable
+x500c	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	27;"	variable
+x500d	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	28;"	variable
+x500e	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	29;"	variable
+x500f	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	33;"	variable
+x5010	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	34;"	variable
+x5011	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	35;"	variable
+x5012	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	36;"	variable
+x5013	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	37;"	variable
+x5014	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	41;"	variable
+x5015	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	42;"	variable
+x5016	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	43;"	variable
+x5017	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	44;"	variable
+x5018	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	45;"	variable
+x5019	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	49;"	variable
+x501a	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	50;"	variable
+x501b	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	51;"	variable
+x501c	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	52;"	variable
+x501d	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	53;"	variable
+x501e	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	57;"	variable
+x501f	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	58;"	variable
+x5020	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	59;"	variable
+x5021	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	60;"	variable
+x5022	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	61;"	variable
+x5023	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	65;"	variable
+x5024	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	66;"	variable
+x5025	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	67;"	variable
+x5026	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	68;"	variable
+x5027	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	69;"	variable
+x5028	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	73;"	variable
+x5029	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	74;"	variable
+x502a	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	75;"	variable
+x502b	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	76;"	variable
+x502c	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	77;"	variable
+x505a	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	81;"	variable
+x505b	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	82;"	variable
+x505c	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	83;"	variable
+x505d	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	84;"	variable
+x505e	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	85;"	variable
+x505f	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	86;"	variable
+x5062	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	87;"	variable
+x5064	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	88;"	variable
+x50a0	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	92;"	variable
+x50a1	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	93;"	variable
+x50b3	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	97;"	variable
+x50c0	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	101;"	variable
+x50c1	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	102;"	variable
+x50c3	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	103;"	variable
+x50c4	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	104;"	variable
+x50c5	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	105;"	variable
+x50c6	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	106;"	variable
+x50c7	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	107;"	variable
+x50c8	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	108;"	variable
+x50c9	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	109;"	variable
+x50ca	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	110;"	variable
+x50cb	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	111;"	variable
+x50cc	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	112;"	variable
+x50cd	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	113;"	variable
+x50d1	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	117;"	variable
+x50d2	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	118;"	variable
+x50e0	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	119;"	variable
+x50e1	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	120;"	variable
+x50e2	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	121;"	variable
+x50f0	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	125;"	variable
+x50f1	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	126;"	variable
+x50f2	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	127;"	variable
+x50f3	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	128;"	variable
+x5200	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	132;"	variable
+x5201	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	133;"	variable
+x5202	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	134;"	variable
+x5203	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	135;"	variable
+x5204	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	136;"	variable
+x5205	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	137;"	variable
+x5206	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	138;"	variable
+x5207	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	139;"	variable
+x5210	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	143;"	variable
+x5211	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	144;"	variable
+x5212	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	145;"	variable
+x5213	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	146;"	variable
+x5214	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	147;"	variable
+x5216	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	148;"	variable
+x5217	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	149;"	variable
+x5218	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	150;"	variable
+x5219	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	151;"	variable
+x521a	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	152;"	variable
+x521b	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	153;"	variable
+x521c	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	154;"	variable
+x521d	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	155;"	variable
+x521e	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	156;"	variable
+x5240	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	160;"	variable
+x5241	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	161;"	variable
+x5242	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	162;"	variable
+x5243	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	163;"	variable
+x5244	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	164;"	variable
+x5245	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	165;"	variable
+x5246	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	166;"	variable
+x5247	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	167;"	variable
+x5249	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	168;"	variable
+x524a	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	169;"	variable
+x524b	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	170;"	variable
+x5250	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	174;"	variable
+x5251	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	175;"	variable
+x5252	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	176;"	variable
+x5253	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	177;"	variable
+x5254	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	178;"	variable
+x5255	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	179;"	variable
+x5256	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	180;"	variable
+x5257	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	181;"	variable
+x5258	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	182;"	variable
+x5259	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	183;"	variable
+x525a	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	184;"	variable
+x525b	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	185;"	variable
+x525c	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	186;"	variable
+x525d	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	187;"	variable
+x525e	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	188;"	variable
+x525f	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	189;"	variable
+x5260	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	190;"	variable
+x5261	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	191;"	variable
+x5262	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	192;"	variable
+x5263	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	193;"	variable
+x5264	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	194;"	variable
+x5265	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	195;"	variable
+x5266	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	196;"	variable
+x5267	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	197;"	variable
+x5268	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	198;"	variable
+x5269	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	199;"	variable
+x526a	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	200;"	variable
+x526b	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	201;"	variable
+x526c	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	202;"	variable
+x526d	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	203;"	variable
+x526e	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	204;"	variable
+x526f	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	205;"	variable
+x5300	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	209;"	variable
+x5301	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	210;"	variable
+x5302	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	211;"	variable
+x5303	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	212;"	variable
+x5304	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	213;"	variable
+x5305	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	214;"	variable
+x5306	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	215;"	variable
+x5307	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	216;"	variable
+x5308	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	217;"	variable
+x5309	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	218;"	variable
+x530a	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	219;"	variable
+x530b	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	220;"	variable
+x530c	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	221;"	variable
+x530d	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	222;"	variable
+x530e	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	223;"	variable
+x530f	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	224;"	variable
+x5310	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	225;"	variable
+x5311	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	226;"	variable
+x5312	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	227;"	variable
+x5313	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	228;"	variable
+x5314	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	229;"	variable
+x5320	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	233;"	variable
+x5321	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	234;"	variable
+x5322	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	235;"	variable
+x5323	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	236;"	variable
+x5324	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	237;"	variable
+x5325	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	238;"	variable
+x5326	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	239;"	variable
+x5327	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	240;"	variable
+x5328	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	241;"	variable
+x5329	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	242;"	variable
+x532a	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	243;"	variable
+x532b	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	244;"	variable
+x532c	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	245;"	variable
+x532d	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	246;"	variable
+x532e	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	247;"	variable
+x532f	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	248;"	variable
+x5330	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	249;"	variable
+x5340	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	253;"	variable
+x5341	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	254;"	variable
+x5342	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	255;"	variable
+x5343	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	256;"	variable
+x5344	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	257;"	variable
+x5345	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	258;"	variable
+x5346	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	259;"	variable
+x53e0	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	263;"	variable
+x5400	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	264;"	variable
+x5401	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	265;"	variable
+x5402	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	266;"	variable
+x5403	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	267;"	variable
+x5404	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	268;"	variable
+x5405	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	269;"	variable
+x5406	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	270;"	variable
+x5407	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	271;"	variable
+x5408	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	272;"	variable
+x5409	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	273;"	variable
+x540a	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	274;"	variable
+x540b	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	275;"	variable
+x540c	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	276;"	variable
+x540d	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	277;"	variable
+x540e	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	278;"	variable
+x540f	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	279;"	variable
+x7f60	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	283;"	variable
+x7f70	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	287;"	variable
+x7f71	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	288;"	variable
+x7f72	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	289;"	variable
+x7f73	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	290;"	variable
+x7f74	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	291;"	variable
+x7f75	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	292;"	variable
+x7f76	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	293;"	variable
+x7f77	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	294;"	variable
+x7f80	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	298;"	variable
+x7f90	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	302;"	variable
+x7f91	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	303;"	variable
+x7f92	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	304;"	variable
+x7f93	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	305;"	variable
+x7f94	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	306;"	variable
+x7f95	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	307;"	variable
+x7f96	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	308;"	variable
+x7f97	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	309;"	variable
+x7f98	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	310;"	variable
+x7f99	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	311;"	variable
+x7f9a	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	312;"	variable

@@ -1,0 +1,24 @@
+;	STMicroelectronics Workspace file
+
+[Version]
+Keyword=ST7Workspace-V0.7
+
+[Project0]
+Filename=primerpunto\primerpunto.stp
+Dependencies=
+
+[Project1]
+Filename=segundopunto\segundopunto.stp
+Dependencies=
+
+[Project2]
+Filename=tercerpunto\tercerpunto.stp
+Dependencies=
+
+[Project3]
+Filename=cuartopunto\cuartopunto.stp
+Dependencies=
+[Options]
+ActiveProject=segundopunto
+ActiveConfig=Debug
+AddSortedElements=1
