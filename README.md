@@ -1,4 +1,6 @@
-# Diseño-De-Microcontroladores---STM8
+#  Microcontroller Design With STM8 and PIC
 
 
-Este Repositorio Contiene todo lo correspondiente a la asignatura de diseño digital con microcontroladores, los codigos corresponden al desarrollo en STM8 y PIC.
+This repository contains everything corresponding to the subject of digital design with microcontrollers, the codes correspond to the development in STM8 and PIC.
+
+* Contains the development of various projects in C
